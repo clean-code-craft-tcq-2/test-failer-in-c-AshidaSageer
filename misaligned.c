@@ -13,6 +13,7 @@ struct ColorPairInfo
 };
 
 ColorPairInfo colorpairinfo [25];
+void printToConsole(int MajorColorIndex, int MinorColorIndex);
 
 int printColorMap() {
     
