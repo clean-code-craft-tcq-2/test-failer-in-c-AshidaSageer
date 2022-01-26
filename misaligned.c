@@ -40,7 +40,7 @@ int main() {
     assert(result == 25);
     printf("All is well (maybe!)\n");
     assert(colorpairinfo [0].pairNumber == 0);
-    assert(strcmp(colorpairinfo [0].MajorColorName,"White") == 0);
-    assert(strcmp(colorpairinfo [0].MinorColorName,"Blue") == 0);
+    assert(strcmp(colorpairinfo [0].MajorColorName,"White") == 1);
+    assert(strcmp(colorpairinfo [0].MinorColorName,"Blue") == 1);
     return 0;
 }
