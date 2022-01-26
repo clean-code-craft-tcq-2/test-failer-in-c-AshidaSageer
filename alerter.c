@@ -11,7 +11,7 @@ int networkAlertStub(float celcius) {
     // stub always succeeds and returns 200
     return 200;
     }
-}
+
 
 
 int networkAlert(float celcius) {
