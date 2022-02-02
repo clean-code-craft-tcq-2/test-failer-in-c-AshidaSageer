@@ -32,7 +32,7 @@ int printColorMap() {
 
 void printToConsole(int MajorColorIndex, int MinorColorIndex)
 {
-    printf("%d | %s | %s\n", MajorColorIndex * 5 + MinorColorIndex, majorColor[MajorColorIndex], minorColor[MajorColorIndex]);
+    printf("%d | %s | %s\n", MajorColorIndex * 5 + MinorColorIndex, majorColor[MajorColorIndex], minorColor[MinorColorIndex]);
 }
 
 int main() {
